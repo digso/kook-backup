@@ -1,6 +1,11 @@
-# Node dependencies and lockfile.
+# Node第三方库及其锁文件(lockfile)。
+# 忽略锁文件是为了避免使用不同镜像时的合并冲突。
 node_modules/
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
 bun.lockb
+
+# 编译输出JS文件，及其调试溯源文件。
+main.js
+*.js.map

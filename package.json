@@ -1,11 +1,18 @@
 {
   "name": "kook-backup",
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "format": "prettier --write .",
-    "check": "prettier --check ."
+    "check": "prettier --check .",
+    "compile": "rollup --config rollup.config.js"
   },
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.14.11",
+    "prettier": "^3.3.3",
+    "rollup": "^4.19.0",
+    "tslib": "^2.6.3"
   }
 }
