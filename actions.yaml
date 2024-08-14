@@ -1,0 +1,6 @@
+name: Kook聊天记录备份
+description: 备份Kook平台聊天记录。
+
+runs:
+  using: node16
+  main: index.js
